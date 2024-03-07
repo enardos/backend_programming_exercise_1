@@ -22,9 +22,11 @@ const students = [
   ];
   
   students.sort((a, b) => {
-    if (a.score > b.score) {
+    if (a.score > b.score) 
+    {
       return -1;
-    } else {
+    } else 
+    {
       return 1;
     }
   });
